@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+body {
+  background-color: #16b3f19a;
+  font-family: 'Open Sans';
+}
+.container {
+  margin: 20px 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.card{
+  margin: 10px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.img-container{
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+img{
+  width: 100%;
+}
+
+.product-cat{
+background-color: hsl(56, 84%, 54%);
+color: rgb(8, 8, 8);
+font-size: 12px;
+margin: 5px 0;
+width: 80px;
+border-radius: 0 10px 10px 0;
+padding: 3px;
+}
+.card-body{
+ margin: 10px; 
+}
+.product-title{
+  font-family: oswald;
+  font-size: 25px;
+}
+.product-price{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration-color: black;
+}
+.discount{
+  background-color: hsl(61, 84%, 50%);
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 3px;
+}
+.real-price{
+  font-size: 12px;
+  text-decoration: line-through;
+}
+.button{
+  margin: 10px 0;
+}
+.button-buy{
+  width: 100%;
+  background-color:hsl(182, 86%, 46%);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px;
+}
+.button-buy:hover {
+  background-color: #ccfa02;
+}
+.button-buy-active {
+  background-color:rgb(25, 0, 255);
+}
+@media only screen and (min-width:960px){
+  .container{
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
